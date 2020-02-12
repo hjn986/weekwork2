@@ -102,4 +102,21 @@ public class Users {
     public void setUpdate_Time(Date update_Time) {
         this.update_Time = update_Time;
     }
+
+    @Override
+    public String toString() {
+        return "Users{" +
+                "id=" + id +
+                ", userName='" + userName + '\'' +
+                ", passWord='" + passWord + '\'' +
+                ", images='" + images + '\'' +
+                ", birthDay=" + birthDay +
+                ", interest='" + interest + '\'' +
+                ", phoneNumber=" + phoneNumber +
+                ", qq=" + qq +
+                ", status=" + status +
+                ", create_Time=" + create_Time +
+                ", update_Time=" + update_Time +
+                '}';
+    }
 }
